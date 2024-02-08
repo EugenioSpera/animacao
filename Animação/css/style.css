@@ -1,0 +1,52 @@
+                                                            /*   .elemento-animado {
+            width: 100px;
+            height: 100px;
+            background-color: #8a2be2;
+            display: flex;
+            justify-content: center;
+            transition: width 6s, height 6s;
+            /* transition-timing-function: ease-in;
+            transition-delay: 5s;
+            transition-property:widty;
+            transition-duration: 2s;
+
+
+}
+
+
+.elemento-animado:hover {
+    width: 300px;
+    /* transform: rotateY(360deg);*/
+                                                            /*transform: skewX(28deg);*/
+                                                            /*transform: rotate(90deg);
+
+}
+.elemento-animado p {
+    color: white
+}
+*/
+                                                            
+                                                            .elemento-animado {
+                                                                width: 100px;
+                                                                height: 100px;
+                                                                background-color: violet;
+                                                                /*usando a animação definida*/
+                                                            }
+                                                            
+                                                            .elemento-animado:hover {
+                                                                animation-name: change-color;
+                                                                animation-duration: 2s;
+                                                            }
+                                                            /*Definindo o comportamento da animação*/
+                                                            
+                                                            @keyframes change-color {
+                                                                0% {
+                                                                    background-color: violet;
+                                                                }
+                                                                50% {
+                                                                    background-color: yellow;
+                                                                }
+                                                                100% {
+                                                                    background-color: white;
+                                                                }
+                                                            }
